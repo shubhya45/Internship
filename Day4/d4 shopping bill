@@ -1,0 +1,20 @@
+print("Shopping Bill Program")
+itemname = input("Enter the item name: ")
+Quantity = int(input("Enter the Quantity: "))
+Price = int(input("Enter the price per item: "))
+
+total = Quantity*Price
+dis=total-(total*0.10)
+gst=dis+(dis*0.18)
+
+
+print("--------------Shopping Bill---------------")
+print(f"itemname :{itemname}")
+print(f"Quantity :{Quantity}")
+print(f"Price :{Price}")
+print("total",total)
+print("dis",dis)
+print("Final Amount:",gst)
+
+
+
